@@ -9,14 +9,15 @@
 	 --navbar-background: rgba(17, 17, 17, 0.98);
 }
  nav {
-	max-height: var(--navbar-height);
+	background-color: var(--navbar-background);
+	z-index: 2;
+	/* max-height: var(--navbar-height);
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 2;
-	background-color: var(--navbar-background);
-	display: flex;
-
+	
+	
+	display: flex; */
 }
 nav img {
 	/* position: absolute; */
