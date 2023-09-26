@@ -5,6 +5,15 @@ body {
   overflow-x: hidden;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-item {
+ height: 4em;
+ font-size: large;
+}
+
 #header {
     position: absolute;
     top: 25vh;
