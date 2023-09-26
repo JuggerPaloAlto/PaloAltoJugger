@@ -11,6 +11,7 @@ nav {
   letter-spacing: 0.025em;
 }
 nav ul {
+  padding: 0;
   text-align: center;
   margin: 0;
 }
@@ -21,6 +22,19 @@ nav ul li {
 }
 nav ul li:hover {
   background: #ac4a4a;
+}
+
+
+@media screen and (min-width: 420px) and (max-width: 720px) {
+  nav {
+      font-size:smaller;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  nav {
+    font-size:xx-small;
+  }
 }
 
 /*---------------------- $MISC ----------------------*/
