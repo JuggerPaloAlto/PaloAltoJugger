@@ -10,7 +10,7 @@ body {
   grid-template-columns: auto auto;
 }
 .grid-item {
- height: 4em;
+ padding-bottom: 1em;
  font-size: large;
 }
 

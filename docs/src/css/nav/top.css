@@ -9,7 +9,7 @@
 	 --navbar-background: rgba(17, 17, 17, 0.98);
 }
  nav {
-	background-color: var(--navbar-background);
+	/* background-color: var(--navbar-background); */
 	z-index: 2;
 	/* max-height: var(--navbar-height);
 	position: fixed;
@@ -39,42 +39,6 @@ nav .links ul {
 	/* justify-content: center; */
 	margin: 0;
 }
-
- /* .theme-switch {
-	 --background: #fff;
-	 --text: #000;
-	 color: var(--text);
-	 width: 70px;
-	 height: 30px;
-	 background: var(--highlight);
-	 border-radius: 50px;
-	 position: relative;
-}
- .theme-switch .switch {
-	 background: white;
-	 width: 24px;
-	 height: 24px;
-	 background: var(--background);
-	 border-radius: 100%;
-	 position: absolute;
-	 top: 3px;
-	 left: 4px;
-	 transition: 0.5s all ease;
-} */
- /* .light-theme {
-	 --background: #fff;
-	 --text: #000;
-	 background: var(--background);
-}
- .light-theme .theme-switch {
-	 background: var(--text);
-}
- .light-theme .theme-switch .switch {
-	 transform: translateX(37px);
-}
- .light-theme a {
-	 color: var(--text);
-} */
 
  .links ul {
 	 display: flex;
