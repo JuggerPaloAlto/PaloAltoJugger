@@ -43,6 +43,7 @@ nav ul li:hover {
 .filler {
   width: 100vw;
   min-height: 100vh;
+  cursor: pointer;
 }
 
 .blackbg {
