@@ -19,22 +19,25 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  padding: 0 3em;
+  padding: 0 5%;
   line-height: 3em;
 }
 nav ul li:hover {
   background: #ac4a4a;
 }
 
+#navbar {
+  font-size: larger;
+}
 
 @media screen and (min-width: 420px) and (max-width: 720px) {
-  nav {
+  #navbar {
       font-size:smaller;
   }
 }
 
 @media screen and (max-width: 420px) {
-  nav {
+  #navbar {
     font-size:xx-small;
   }
 }
