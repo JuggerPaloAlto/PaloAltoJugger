@@ -5,17 +5,12 @@
 
 body {
     color:whitesmoke;
-    /* font-family: 'Suez One', serif; */
-    /* font-family: 'Kadwa', serif; */
-    font-family: 'Cardo', serif;
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: 'Gabarito', cursive;
 }
 
 .light-theme {
     color: black;
-}
-
-pre {
-    font-family: 'Cardo', serif;
 }
 
 .tab {

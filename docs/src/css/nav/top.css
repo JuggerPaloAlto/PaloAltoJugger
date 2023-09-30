@@ -48,8 +48,7 @@ nav .links ul {
 	 margin: 16px 30px;
 	 position: relative;
 	 color: var(--text);
-	 /* font-family: 'Oswald', sans-serif;
-	 font-size: 12px; */
+
 	 text-transform: uppercase;
 	 text-decoration: none;
 }

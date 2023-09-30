@@ -5,6 +5,23 @@ body {
   overflow-x: hidden;
 }
 
+#Title h2 {
+  font-size: 3em;
+}
+
+.wrap div h2 {
+  font-size: 1.75em;
+}
+
+.wrap div p {
+  font-size: 1.25em;
+  line-height: 175%;
+}
+
+.wrap .collapse {
+  max-height: 4em;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
