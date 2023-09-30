@@ -64,11 +64,11 @@ function* show_intro_message() {
 }
 
 function* timed_intro() {
-    do_starting_anim(4000);
+    do_starting_anim(2000);
     yield;
-    do_starting_anim(4000);
+    do_starting_anim(2000);
     yield;
-    do_starting_anim(4000);
+    do_starting_anim(2000);
     // yield;
     // do_starting_anim(1000);
     return;
