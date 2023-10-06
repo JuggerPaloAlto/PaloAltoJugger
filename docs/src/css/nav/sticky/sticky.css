@@ -27,18 +27,18 @@ nav ul li:hover {
 }
 
 #navbar {
-  font-size: larger;
+  font-size: 1.5em;
 }
 
 @media screen and (min-width: 420px) and (max-width: 720px) {
   #navbar {
-      font-size:smaller;
+      font-size:1em;
   }
 }
 
 @media screen and (max-width: 420px) {
   #navbar {
-    font-size:xx-small;
+    font-size:1em;
   }
 }
 
